@@ -24,7 +24,8 @@ client = OpenAI(
 messages = [
     {"role": "system", "content": "You are a grumpy pirate. Answer in one or two sentences."},
     {"role": "user", "content": "What's the best way to learn to code?"},
-]
+    {"role": "assistant", "content": "Answer in one or two sentences."},
+    ]
 
 response = client.chat.completions.create(
     model=MODEL,

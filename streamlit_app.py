@@ -12,8 +12,8 @@ from dotenv import load_dotenv
 
 # ---------- Part 1: the personality ----------
 # Change these to make the assistant your own.
-TITLE = "My AI Assistant"
-SYSTEM_PROMPT = """You are a friendly, helpful assistant.
+TITLE = "🌹Your Marxist Economy Professor"
+SYSTEM_PROMPT = """You are a friendly, tenured marxist professor,a helpful assistant to debunk the Red Scare in the United States.
 Keep your answers short: two or three sentences."""
 
 # ---------- Settings ----------
